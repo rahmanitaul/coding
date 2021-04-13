@@ -1,5 +1,3 @@
-
-
 <!-- JUMBOTRON/CAROUSEL --> 
 
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -28,7 +26,7 @@
         }
 
         ?>
-        <div class="carousel-item <?= $actives; ?>">
+        <div class="carousel-item carousel1 <?= $actives; ?>">
           <img src="<?= base_url('assets/img/').$c['gambar'] ?>" class="d-block w-100" >
           <div class="carousel-caption d-md-block">
             <h5><i>28 MILLION COMMUNITY</i></h5>
@@ -103,10 +101,86 @@
       <div class="container products">
         <div class="row">
           <div class="col-lg-10"><h4><b>Products</b></h4></div>
-          <div class="col-lg-1"><p class="text-danger"><b>VIEW ALL</b></p></div>
+          <div class="col-lg-2"><a href="#"><b>VIEW ALL</b></a></div>
         </div>
 
         <h5 class="text-danger"><b>What we can do for you</b></h5>
-      </div>
-    </div>
-<!-- END OF PRODUCTS -->
+
+        <div class="row">
+
+          <?php foreach ($products as $p) {?>
+            <div class="col-lg-4">
+              <div class="card" style="background-color: <?= $p['bg'] ?>">
+                <center><img src="<?= base_url('assets/img/').$p['gambar'] ?>" class="card-img-top"></center>
+                <div class="wrapper">
+                  <span><p><?= $p['caption'] ?> </p></span>
+                </div>
+              </div>
+            </div>
+            <?php $p++; } ?>
+          </div>
+
+          <!-- END OF PRODUCTS -->
+
+          <hr><hr>
+
+          <!-- CAROUSEL 2 -->
+
+          <h1 class="what"><i>WHAT MAKE US DIFFERENT</i></h1>
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <?php 
+
+              $i = 0;
+              foreach ($carousel2 as $c) {
+                $actives = '';
+                if($i == 0){
+                  $actives = 'active';
+                }
+
+                ?>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="<?= $i; ?>" class="<?= $actives ?>" aria-current="true"></button>
+                <?php $i++; } ?>
+              </div>
+              <div class="carousel-inner"> 
+                <?php 
+
+                $i = 0;
+                foreach ($carousel2 as $k) {
+                  $actives = '';
+                  if($i == 0){
+                    $actives = 'active';
+                  }
+
+                  ?>
+                  <div class="carousel-item carousel2 <?= $actives; ?>">
+                    <div class="container row">
+                      <div class="col-lg-4" style="border: 1px solid black;">
+                        <img src="<?= base_url('assets/img/').$k['gambar'] ?>" class="d-block w-100" >
+                      </div>
+                      <div class="col-lg-7" style="border: 1px solid black;">
+                        <div class="carousel-caption d-md-block">
+            <h5><i>28 MILLION COMMUNITY</i></h5>
+            <a href="">LET'S WORK WITH US</a>
+          </div>
+                      </div>
+                      
+                    </div>
+                      
+                  </div>
+                  <?php $i++; } ?>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <hr>
+<!-- END OF CAROUSEL 2 -->
