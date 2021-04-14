@@ -12,10 +12,3 @@ const navSlide = () => {
 
 navSlide();
 
-//parallax
-$(window).scroll(function(){
-
-	var cScroll = $(this).scrollTop();
-
-	console.log(cScroll);
-});

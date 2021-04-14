@@ -18,7 +18,8 @@ class Coding extends CI_Controller
 
 		$data['carousel'] = $this->db->get('carousel')->result_array();
 		$data['products'] = $this->db->get('products')->result_array();
-		$data['carousel2'] = $this->db->get('carousel_2')->result_array();
+		$data['newcarousel'] = $this->db->get('carousel_2')->result_array();
+		$data['services'] = $this->db->get('services')->result_array();
 
 		$this->load->view('templates/header', $data);
 		$this->load->view('main/index', $data);
@@ -26,3 +27,4 @@ class Coding extends CI_Controller
 	}
 
 }
+
