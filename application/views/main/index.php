@@ -20,7 +20,7 @@
               <a class="nav-link" href="#">Clients</a>
             </li>
           </ul>
-         
+          
         </div>
       </div>
     </nav>
@@ -122,7 +122,7 @@
 
               <!-- CAROUSEL 2 -->
 
-              <h1 class="what mb-3"><i><marquee scrollamount="18">WHAT MAKE US DIFFERENT</marquee></i></h1>
+              <h1 class="what mb-0"><i><marquee scrollamount="18">WHAT MAKE US DIFFERENT</marquee></i></h1>
 
               <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators newcarousel">
@@ -220,7 +220,7 @@
 
                         <h1 class="works mt-2"><i><marquee scrollamount="18">OUR WORKS OUR WORKS OUR WORKS OUR WORKS OUR WORKS</marquee></i></h1>
 
-                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div id="carouselExampleCaptions" class="carousel slide3" data-bs-ride="carousel">
                           <div class="carousel-indicators newcarousel1">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -265,7 +265,7 @@
                         <hr>
 
                         <!-- CLIENTS -->
-                        <div class="services-section mb-5">
+                        <div class="clients-section mb-5">
                           <div class="container services">
                             <div class="row">
                               <div class="col-lg-10"><h4><b>Clients</b></h4></div>
@@ -274,67 +274,67 @@
 
                             <h5 class="text-danger"><b>Our happy clients</b></h5>
 
-                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div id="carouselExampleControls" class="carousel slide4" data-bs-ride="carousel">
                               <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                  <div class="row mb-5 mx-auto" style="width: 800px;">
+                                <div class="carousel-item carousel4 active">
+                                  <div class="row mb-5 mx-auto">
                                     <div class="col-lg-2">
-                                      <img src="<?= base_url('assets/img/v502_749.png')?>" class="d-block w-100">
+                                      <img src="<?= base_url('assets/img/v502_749.png')?>" class="d-block">
                                     </div>
                                     <div class="col-lg-2">
-                                      <img src="<?= base_url('assets/img/v502_744.png')?>" class="d-block w-100">
+                                      <img src="<?= base_url('assets/img/v502_744.png')?>" class="d-block">
                                     </div>
                                     <div class="col-lg-2">
-                                      <img src="<?= base_url('assets/img/v502_745.png')?>" class="d-block w-100">
+                                      <img src="<?= base_url('assets/img/v502_745.png')?>" class="d-block">
                                     </div>
                                     <div class="col-lg-2">
-                                      <img src="<?= base_url('assets/img/v502_746.png')?>" class="d-block w-100">
+                                      <img src="<?= base_url('assets/img/v502_746.png')?>" class="d-block">
                                     </div>
                                     <div class="col-lg-2">
-                                      <img src="<?= base_url('assets/img/v502_747.png')?>" class="d-block w-100">
+                                      <img src="<?= base_url('assets/img/v502_747.png')?>" class="d-block">
                                     </div>
                                     <div class="col-lg-2">
-                                      <img src="<?= base_url('assets/img/v502_748.png')?>" class="d-block w-100">
-                                    </div>
-                                  </div>
-                                  <div class="row mb-5 mx-auto" style="width: 800px;">
-                                    <div class="col-lg-2">
-                                      <img src="<?= base_url('assets/img/v502_751.png')?>" class="d-block w-100">
-                                    </div>
-                                    <div class="col-lg-2">
-                                      <img src="<?= base_url('assets/img/v502_753.png')?>" class="d-block w-100">
-                                    </div>
-                                    <div class="col-lg-2">
-                                      <img src="<?= base_url('assets/img/v502_759.png')?>" class="d-block w-100">
-                                    </div>
-                                    <div class="col-lg-2">
-                                      <img src="<?= base_url('assets/img/v502_761.png')?>" class="d-block w-100">
-                                    </div>
-                                    <div class="col-lg-2">
-                                      <img src="<?= base_url('assets/img/v502_754.png')?>" class="d-block w-100">
-                                    </div>
-                                    <div class="col-lg-2">
-                                      <img src="<?= base_url('assets/img/v502_742.png')?>" class="d-block w-100">
+                                      <img src="<?= base_url('assets/img/v502_748.png')?>" class="d-block">
                                     </div>
                                   </div>
-                                  <div class="row mb-5 mx-auto" style="width: 800px;">
+                                  <div class="row mb-5 mx-auto">
                                     <div class="col-lg-2">
-                                      <img src="<?= base_url('assets/img/v502_751.png')?>" class="d-block w-100">
+                                      <img src="<?= base_url('assets/img/v502_751.png')?>" class="d-block">
                                     </div>
                                     <div class="col-lg-2">
-                                      <img src="<?= base_url('assets/img/v502_753.png')?>" class="d-block w-100">
+                                      <img src="<?= base_url('assets/img/v502_753.png')?>" class="d-block">
                                     </div>
                                     <div class="col-lg-2">
-                                      <img src="<?= base_url('assets/img/v502_759.png')?>" class="d-block w-100">
+                                      <img src="<?= base_url('assets/img/v502_759.png')?>" class="d-block">
                                     </div>
                                     <div class="col-lg-2">
-                                      <img src="<?= base_url('assets/img/v502_761.png')?>" class="d-block w-100">
+                                      <img src="<?= base_url('assets/img/v502_761.png')?>" class="d-block">
                                     </div>
                                     <div class="col-lg-2">
-                                      <img src="<?= base_url('assets/img/v502_754.png')?>" class="d-block w-100">
+                                      <img src="<?= base_url('assets/img/v502_754.png')?>" class="d-block">
                                     </div>
                                     <div class="col-lg-2">
-                                      <img src="<?= base_url('assets/img/v502_742.png')?>" class="d-block w-100">
+                                      <img src="<?= base_url('assets/img/v502_742.png')?>" class="d-block">
+                                    </div>
+                                  </div>
+                                  <div class="row mb-5 mx-auto">
+                                    <div class="col-lg-2">
+                                      <img src="<?= base_url('assets/img/v502_751.png')?>" class="d-block">
+                                    </div>
+                                    <div class="col-lg-2">
+                                      <img src="<?= base_url('assets/img/v502_753.png')?>" class="d-block">
+                                    </div>
+                                    <div class="col-lg-2">
+                                      <img src="<?= base_url('assets/img/v502_759.png')?>" class="d-block">
+                                    </div>
+                                    <div class="col-lg-2">
+                                      <img src="<?= base_url('assets/img/v502_761.png')?>" class="d-block">
+                                    </div>
+                                    <div class="col-lg-2">
+                                      <img src="<?= base_url('assets/img/v502_754.png')?>" class="d-block">
+                                    </div>
+                                    <div class="col-lg-2">
+                                      <img src="<?= base_url('assets/img/v502_742.png')?>" class="d-block">
                                     </div>
                                   </div>
 
@@ -353,8 +353,12 @@
 
                           <!-- END OF CLIENTS -->
 
-                          <center>
-                            <h2 class="end mx-auto"><i><b>LET'S CREATE <u>CREATIVE PROJECTS</u></b></i></h2>
+                          <div class="endpart">
+                            <center>
+                              <h2 class="end mx-auto"><i><b>LET'S CREATE <u>CREATIVE PROJECTS</u></b></i></h2>
+                            </center>
 
                             <a class="before mt-5" href="#">START PROJECT WITH US</a>
-                          </center>
+                          </div>
+                          
+                          

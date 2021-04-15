@@ -8,6 +8,10 @@ nav.navbar .navbar-brand img{
 	width: 100px;
 	padding: 15px;
 }
+.navbar .container .navbar-toggler{
+	margin-top: -2rem;
+	margin-right: 1rem;
+}
 .collapse .navbar-nav{
 	background-color: rgba(0,0,0,.8);
 }
@@ -134,7 +138,7 @@ h1.what{
 }
 .carousel-item.carousel2 .row .col-lg-5{
 	position: relative;
-	max-width: 500px;
+	width: 500px;
 	height: 300px;
 }
 .carousel-item.carousel2 .row .col-lg-5 img{
@@ -164,7 +168,7 @@ h1.what{
 	font-size: 18px;
 	color: #101010;
 	top: -2rem;
-	left: 19rem;
+	left: 21rem;
 	width: 450px;
 	font-weight: bold;
 }
@@ -249,7 +253,7 @@ h1.works{
 }
 .carousel-item.carousel3 .row .col-lg-4 img{
 	position: relative;
-	max-width: 330px;
+	width: 330px;
 	height: 270;
 }
 .carousel-item.carousel3 .row .col-lg-4 .carousel-caption span{
@@ -271,12 +275,24 @@ h1.works{
 h2{
 	margin-bottom: 2rem;
 }
+.clients-section .container .carousel4{	
+	margin-left: 2rem;
+}
+.clients-section .container .carousel4 .row{
+	width: 1000px;
+}
+.clients-section .container .carousel4 .row .col-lg-2{
+	width: 150px;
+	margin: 0;
+	padding: 0;
+}
 h2.end u{
 	background-color: yellow;
 }
-a.before{
+.endpart a.before{
 	font-size: 20px;
 	font-weight: bold;
+	left: 22rem;
 }
 footer{
 	position: absolute;
@@ -291,7 +307,6 @@ footer{
 }
 .main-content .box{
 	flex-basis: 50%;
-	padding: 10px 20px;
 }
 .main-content .left img{
 	width: 100px;
@@ -309,17 +324,18 @@ footer{
 	font-size: 13px;
 	margin-left: 3rem;
 }
-.main-content .second,
-.main-content .third{
-	display: inline-grid;
+.main-content .row{
+	margin-top: 2rem;
 }
-.main-content .second a,
-.main-content .third a{
-	margin: 15px 100px 10px 100px;
+.main-content .row .col-lg-5{
+	width: 300px;
+	margin-top: 2rem;
+	padding: 10px;
+
+}
+.main-content .row .col-lg-5 a{
 	color: #fff;
-	font-size: 15px;
-	text-align: center;
-	border: none;
+	border:none;
 }
 .main-content .right i{
 	position: absolute;
@@ -389,45 +405,836 @@ footer{
 	}
 	.products-section .container h4{
 		position: relative;
-		margin-left: 12rem;
+		text-align: center;
 		margin-bottom: 1rem;
 	}
 	.products-section .container a{
 		font-size: 13px;
-		margin-left: 12.5rem;
+		margin-left: 11.5rem;
 	}
 	.products-section .container h5{
 		font-size: 1rem;
 		text-align: center;
 		margin-top: 1rem;
 	}
+	.products-section .container .row{
+		margin-left: .5rem;
+	}
 	.products-section .container .row .col-lg-4{
 		/*border: 1px solid black; */
 		position: relative; 
 		display: flex; 
-		width: 330px;
-		margin-left: 5rem;
-	}
+		width: 150px;
+		height: 100px;
+		margin-bottom: 1rem;
 
+	}
+	.products-section .container .card{
+		height: 100px;
+		padding: 0;
+	}
 	.products-section .container .card img{
-		width: 10rem;
-		margin: 2rem 0 1rem 0;
+		width: 4rem;
+		margin: 1rem 0 1rem 0;
 	}
 
 	.products-section .container .card p{
 		position: absolute;
-		bottom:0rem;
-		left: 1rem;
-		font-size: 15px;
+		bottom:-.5rem;
+		left: .5rem;
+		font-size: 10px;
 	}
 	h1.what{
-		font-size: 50px;
+		font-size: 40px;
 		margin-top: 2rem;
+	}
+
+	.carousel .carousel-indicators.newcarousel button{
+		background-color: #fff;
+	}
+	.carousel-item.carousel2 .row .col-lg-5{
+		position: relative;
+		width: 530px;
+		margin-left: -1rem;
+	}
+	.carousel-item.carousel2 .row .col-lg-5 img{
+		position: relative;
+		margin-top: -11rem;
+	}
+	.carousel-item.carousel2 .row .carousel-caption h5{
+		position: absolute;
+		font-size: 4rem;
+		top: -5rem;
+		left: 8rem;
+		font-weight: bolder;
+	}
+	.carousel-item.carousel2 .row .carousel-caption p{
+		position: absolute;
+		font-size: 1.5rem;
+		top: -2rem;
+		left: 8rem;
+	}
+	.carousel-item.carousel2 .row .col-lg-7 .carousel-caption p{
+		position: absolute;
+		font-size: 11px;
+		color: #fff;
+		top: 1rem;
+		left: -1.5rem;
+		width: 400px;
+		text-align: right;
+	}
+	.services-section .container a{
+		position: relative;
+		margin-left: 11rem;
+	}
+	.services-section .container h5{
+		font-size: 1rem;
+		margin-left: 2rem;
+		margin-top: 1rem;
+	}
+	.services-section .container .row .col-lg-4{
+		/*border: 1px solid black; */
+		position: relative;
+		width: 210px;
+		height: 100px;
+
+	}
+	.services-section .container .card{
+		height: 100px;
+	}
+	.services-section .container .card img{
+		width: 4rem;
+		margin: 1.5rem 0 1rem 0;
+	}
+	.services-section .container .card p{
+		position: absolute;
+		bottom:-.5rem;
+		left: .5rem;
+		font-size: 10px;
+	}
+	h1.works{
+		font-size: 3rem;
+		font-weight: bolder;
+	}
+	.carousel.slide3{
+		height: 200px;
+		margin-top: -2rem;
+
+	}
+	.carousel .carousel-indicators.newcarousel1 button{
+		background-color: #ca171e;
+	}
+	.carousel-item.carousel3 .row{
+		margin-left: 2.5rem;
+		margin-top: 2.5rem;
+	}
+	.carousel-item.carousel3 .row .col-lg-4{
+		position: relative;
+		max-width: 120px;
+		height: 100px;
+		padding: 5px;
+	}
+	.carousel-item.carousel3 .row .col-lg-4 img{
+		position: relative;
+		max-width: 120px;
+		height: 100px;
+	}
+	.carousel-item.carousel3 .row .col-lg-4 .carousel-caption p{
+		position: absolute;
+		top:0;
+		left: 1rem;
+		color: #101010;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	.clients-section .container .row .col-lg-2 a{
+		margin-left: 10rem;
+	}
+	.clients-section .container .carousel4{	
+		position: relative;
+		margin-left: 2.5rem;
+		width: 400px;
+		height: 400px;
+		margin-bottom: 2rem;
+	}
+	.clients-section .container .carousel4 .row{
+		position: relative;
+		width: 370px;
+	}
+	.clients-section .container .carousel4 .row .col-lg-2{
+		width: 100px;
+	}
+	.clients-section .container .carousel4 .row .col-lg-2 img{
+		width: 100px;
+		height: 50px;
+	}
+	.endpart h2.end{
+		margin-top: 10rem;
+	}
+	.endpart a.before{
+		position: relative;
+		font-size: 20px;
+		font-weight: bold;
+		margin-left: -16rem;
+	}
+	footer{
+		position: absolute;
+		background-color: #101010;
+		left: 0;
+		width: 110%;
+		height: 110%;
+		margin-top: 4rem;
+		overflow: hidden;
+	}
+	.main-content{
+		display: inline-block;
+	}
+	.main-content .left{
+		height: 100px;
+	}
+	.main-content .left img{
+		width: 100px;
+		padding: 10px;
+		margin: 2rem 0 0 12rem;
+	}
+	.main-content .left h5{
+		margin-left: -2rem;
+	}
+	.main-content .left .content p{
+		margin-left: -2rem;
+		text-align: center;
+		font-family: HK Grotesk;
+	}
+	.main-content .row .col-lg-5.second{
+		position: relative;
+		margin-top: 7rem;
+		text-align: center;
+		margin-left: 8rem;
+	}
+	.main-content .row .col-lg-5.second a{
+		margin-left: 4rem;
+		display: block;
+		text-align: center;
+	}
+	.main-content .row .col-lg-5.third{
+		position: relative;
+		margin-top: 1rem;
+		text-align: center;
+		margin-left: 8rem;
+	}
+	.main-content .row .col-lg-5.third a{
+		margin-left: 4rem;
+		display: block;
+		text-align: center;
+	}
+	.main-content .right{
+		position: relative;
+		width: 300px;
+		height: 200px;
+		margin-left: 5rem;
+		margin-top: -3rem;
+	}
+	.main-content .right i{
+		position: relative;
+		margin-left: 12.5rem;
 	}
 }
 
 /*SMALL DEVICES(LANDSCAPE PHONES, LESS THAN 768px)*/
 @media (min-width: 576px) and (max-width: 768px)
 {
+	body{
+		overflow-x: hidden;
+	}
+	.collapse.navbar-collapse .navbar-nav li a{
+		padding: 20px;
+		color: #fff;
+		font-weight: normal;
+		text-align: center;
+	}
+	.carousel{
+		position: relative;
+		height: 300px;
+	}
+	.carousel .carousel-item img{
+		position: relative;
+		height: 300px;
+	}
+	.carousel-caption{
+		position: absolute;
+		right: 12rem;
+		text-align:left;
+		bottom:4rem;
+	}
+	.carousel .carousel-item .carousel-caption h5{
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+	.carousel .carousel-item .carousel-caption a{
+		font-size: .5rem;
+	}
+	.aboutus-section .container{
+		margin-top: 1rem;
+		margin-bottom: 3rem;
+	}
+	.aboutus-section .container p{
+		margin-top: 2rem;
+		background-color: #fff;
+		font-size: 13px;
+		line-height: 2;
+		padding: 10px;
+		text-align: center;
+	}
+	.aboutus-section .container img{
+		position: relative;
+		width: 200px;
+		padding: 0;
+		margin: -2rem 0 0 10rem;
+	}
+	.products-section .container h4{
+		position: relative;
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+	.products-section .container a{
+		font-size: 13px;
+		margin-left: 14rem;
+	}
+	.products-section .container h5{
+		font-size: 1rem;
+		text-align: center;
+		margin-top: 1rem;
+		margin-left: 1rem;
+	}
+	.products-section .container .row .col-lg-4{
+		/*border: 1px solid black; */
+		position: relative; 
+		display: flex; 
+		width: 180px;
+		height: 100px;
+		margin-bottom: 1rem;
 
+	}
+	.products-section .container .card{
+		height: 100px;
+		padding: 0;
+	}
+	.products-section .container .card img{
+		width: 4rem;
+		margin: 1rem 0 1rem 0;
+	}
+
+	.products-section .container .card p{
+		position: absolute;
+		bottom:-.5rem;
+		left: .5rem;
+		font-size: 10px;
+	}
+	h1.what{
+		font-size: 40px;
+		margin-top: 2rem;
+	}
+
+	.carousel .carousel-indicators.newcarousel button{
+		background-color: #fff;
+	}
+
+	.carousel-item.carousel2 .row .col-lg-5{
+		position: relative;
+		margin-left: 1.3rem;
+	}
+	.carousel-item.carousel2 .row .col-lg-5 img{
+		position: relative;
+		margin-top: -13rem;
+	}
+	.carousel-item.carousel2 .row .carousel-caption h5{
+		position: absolute;
+		font-size: 4rem;
+		top: -5rem;
+		left: 8rem;
+		font-weight: bolder;
+	}
+	.carousel-item.carousel2 .row .carousel-caption p{
+		position: absolute;
+		font-size: 1.5rem;
+		top: -2rem;
+		left: 8rem;
+	}
+	.carousel-item.carousel2 .row .col-lg-7 .carousel-caption p{
+		position: absolute;
+		font-size: 11px;
+		color: #fff;
+		top: 1rem;
+		left: -1.5rem;
+		width: 400px;
+		text-align: right;
+	}
+	.services-section .container a{
+		position: relative;
+		margin-left: 13rem;
+	}
+	.services-section .container h5{
+		font-size: 1rem;
+		margin-left: 1rem;
+		margin-top: 1rem;
+	}
+	.services-section .container .row{
+		margin-left: 0rem;
+	}
+	.services-section .container .row .col-lg-4{
+		/*border: 1px solid black; */
+		position: relative;
+		width: 250px;
+		height: 100px;
+		margin-bottom: 2rem;
+
+	}
+	.services-section .container .card{
+		height: 120px;
+	}
+	.services-section .container .card img{
+		width: 4rem;
+		margin: 1.5rem 0 1rem 0;
+	}
+	.services-section .container .card p{
+		position: absolute;
+		bottom:-.5rem;
+		left: .5rem;
+		font-size: 10px;
+	}
+	h1.works{
+		font-size: 3rem;
+		font-weight: bolder;
+	}
+	.carousel.slide3{
+		height: 200px;
+		margin-top: -3rem;
+
+	}
+	.carousel .carousel-indicators.newcarousel1 button{
+		background-color: #ca171e;
+	}
+	.carousel-item.carousel3 .row{
+		margin-left: 2.5rem;
+		margin-top: 2.5rem;
+	}
+	.carousel-item.carousel3 .row .col-lg-4{
+		position: relative;
+		width: 140px;
+		height: 100px;
+		padding: 5px;
+	}
+	.carousel-item.carousel3 .row .col-lg-4 img{
+		position: relative;
+		width: 120px;
+		height: 100px;
+	}
+	.carousel-item.carousel3 .row .col-lg-4 .carousel-caption p{
+		position: absolute;
+		top:0;
+		left: 1rem;
+		color: #101010;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	.clients-section .container .row .col-lg-2 a{
+		margin-left: 12rem;
+	}
+	.clients-section .container .carousel4{	
+		position: relative;
+		margin-left: 4rem;
+		width: 400px;
+		height: 400px;
+		margin-bottom: 2rem;
+	}
+	.clients-section .container .carousel4 .row{
+		position: relative;
+		width: 370px;
+	}
+	.clients-section .container .carousel4 .row .col-lg-2{
+		width: 100px;
+	}
+	.clients-section .container .carousel4 .row .col-lg-2 img{
+		width: 100px;
+		height: 50px;
+	}
+	.endpart h2.end{
+		margin-top: 10rem;
+	}
+	.endpart a.before{
+		position: relative;
+		font-size: 20px;
+		font-weight: bold;
+		margin-left: -16rem;
+	}
+	footer{
+		position: absolute;
+		background-color: #101010;
+		left: 0;
+		width: 110%;
+		height: 130%;
+		margin-top: 4rem;
+		overflow: hidden;
+	}
+	.main-content{
+		display: inline-block;
+	}
+	.main-content .left{
+		height: 100px;
+	}
+	.main-content .left img{
+		width: 150px;
+		padding: 10px;
+		margin: 2rem 0 0 15rem;
+	}
+	.main-content .left h5{
+		margin-left: -4rem;
+	}
+	.main-content .left .content p{
+		margin-left: -4rem;
+		text-align: center;
+	}
+	.main-content .row .col-lg-5.second{
+		position: relative;
+		margin-top: 11rem;
+		text-align: center;
+		margin-left: 10rem;
+	}
+	.main-content .row .col-lg-5.second a{
+		margin-left: 6rem;
+		display: block;
+		text-align: center;
+	}
+	.main-content .row .col-lg-5.third{
+		position: relative;
+		margin-top: 1rem;
+		text-align: center;
+		margin-left: 10rem;
+	}
+	.main-content .row .col-lg-5.third a{
+		margin-left: 6rem;
+		display: block;
+		text-align: center;
+	}
+	.main-content .right{
+		position: relative;
+		width: 300px;
+		height: 200px;
+		margin-left: 8.5rem;
+		margin-top: -2rem;
+	}
+	.main-content .right i{
+		position: relative;
+		margin-left: 12.5rem;
+	}
+	.main-content .right .content p{
+		position: relative;
+	}
+}
+/*MEDIUM DEVICES(TABLETS, LESS THAN 992px)*/
+@media (min-width: 768px) and (max-width: 992px)
+{
+	body{
+		overflow-x: hidden;
+	}
+	.collapse.navbar-collapse .navbar-nav li a{
+		padding: 20px;
+		color: #fff;
+		font-weight: normal;
+		text-align: center;
+	}
+	.carousel{
+		position: relative;
+		height: 300px;
+	}
+	.carousel .carousel-item img{
+		position: relative;
+		height: 300px;
+	}
+	.carousel-caption{
+		position: absolute;
+		right: 12rem;
+		text-align:left;
+		bottom:4rem;
+	}
+	.carousel .carousel-item .carousel-caption h5{
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+	.carousel .carousel-item .carousel-caption a{
+		font-size: .5rem;
+	}
+	.aboutus-section .container{
+		margin-top: 1rem;
+		margin-bottom: 3rem;
+	}
+	.aboutus-section .container p{
+		margin-top: 2rem;
+		background-color: #fff;
+		font-size: 13px;
+		line-height: 2;
+		padding: 10px;
+		text-align: center;
+	}
+	.aboutus-section .container img{
+		position: relative;
+		width: 200px;
+		padding: 0;
+		margin: -2rem 0 0 15rem;
+	}
+	.products-section .container h4{
+		position: relative;
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+	.products-section .container a{
+		font-size: 13px;
+		margin-left: 19.5rem;
+	}
+	.products-section .container h5{
+		font-size: 1rem;
+		text-align: center;
+		margin-top: 1rem;
+		margin-left: 1rem;
+	}
+	.products-section .container .row .col-lg-4{
+		/*border: 1px solid black; */
+		position: relative; 
+		display: flex; 
+		width: 180px;
+		height: 100px;
+		margin-bottom: 1rem;
+
+	}
+	.products-section .container .card{
+		height: 100px;
+		padding: 0;
+	}
+	.products-section .container .card img{
+		width: 4rem;
+		margin: 1rem 0 1rem 0;
+	}
+
+	.products-section .container .card p{
+		position: absolute;
+		bottom:-.5rem;
+		left: .5rem;
+		font-size: 10px;
+	}
+	h1.what{
+		font-size: 40px;
+		margin-top: 2rem;
+	}
+
+	.carousel .carousel-indicators.newcarousel button{
+		background-color: #fff;
+	}
+
+	.carousel-item.carousel2 .row .col-lg-5{
+		position: relative;
+		margin-left: 1.3rem;
+		width: 400px;
+	}
+	.carousel-item.carousel2 .row .col-lg-5 img{
+		position: relative;
+		margin-top: -7rem;
+	}
+	.carousel-item.carousel2 .row .carousel-caption h5{
+		position: absolute;
+		font-size: 4rem;
+		top: -5rem;
+		left: 6rem;
+		font-weight: bolder;
+	}
+	.carousel-item.carousel2 .row .carousel-caption p{
+		position: absolute;
+		font-size: 1.5rem;
+		top: -2rem;
+		left: 5rem;
+	}
+	.carousel-item.carousel2 .row .col-lg-7 .carousel-caption p{
+		position: absolute;
+		font-size: 13px;
+		color: #101010;
+		top: -9rem;
+		left: 20rem;
+		width: 170px;
+		text-align: left;
+	}
+	.services-section .container a{
+		position: relative;
+		margin-left: 18rem;
+	}
+	.services-section .container h5{
+		font-size: 1rem;
+		margin-left: 1rem;
+		margin-top: 1rem;
+	}
+	.services-section .container .row{
+		margin-left: 0rem;
+	}
+	.services-section .container .row .col-lg-4{
+		/*border: 1px solid black; */
+		position: relative;
+		width: 220px;
+		height: 100px;
+		margin-bottom: 2rem;
+
+	}
+	.services-section .container .card{
+		height: 120px;
+	}
+	.services-section .container .card img{
+		width: 4rem;
+		margin: 1.5rem 0 1rem 0;
+	}
+	.services-section .container .card p{
+		position: absolute;
+		bottom:-.5rem;
+		left: .5rem;
+		font-size: 10px;
+	}
+	h1.works{
+		font-size: 3rem;
+		font-weight: bolder;
+	}
+	.carousel.slide3{
+		height: 250px;
+		margin-top: -3rem;
+
+	}
+	.carousel .carousel-indicators.newcarousel1 button{
+		background-color: #ca171e;
+	}
+	.carousel-item.carousel3 .row{
+		margin-left: 5rem;
+		margin-top: 2.5rem;
+	}
+	.carousel-item.carousel3 .row .col-lg-4{
+		position: relative;
+		width: 170px;
+		height: 100px;
+		padding: 5px;
+	}
+	.carousel-item.carousel3 .row .col-lg-4 img{
+		position: relative;
+		width: 170px;
+		height: 150px;
+	}
+	.carousel-item.carousel3 .row .col-lg-4 .carousel-caption span{
+		position: absolute;
+		top:.5rem;
+		left: -1.3rem;
+		width: 160px;
+		height: 150px;
+		background-color:rgba(0,0,0,0.2);
+	}
+	.carousel-item.carousel3 .row .col-lg-4 .carousel-caption p{
+		position: absolute;
+		bottom:0rem;
+		left: 1rem;
+		color: #fff;
+		font-weight: bold;
+		font-size: 10px;
+	}
+	.clients-section .container .row .col-lg-2 a{
+		margin-left: 17.5rem;
+	}
+	.clients-section .container .carousel4{	
+		position: relative;
+		margin-left: 1rem;
+		width: 400px;
+		height: 400px;
+		margin-bottom: 2rem;
+	}
+	.clients-section .container .carousel4 .row{
+		position: relative;
+		width: 600px;
+	}
+	.clients-section .container .carousel4 .row .col-lg-2{
+		width: 100px;
+	}
+	.clients-section .container .carousel4 .row .col-lg-2 img{
+		width: 100px;
+		height: 50px;
+	}
+	.endpart h2.end{
+		margin-top: 1rem;
+	}
+	.endpart a.before{
+		position: relative;
+		font-size: 20px;
+		font-weight: bold;
+		margin-left: -10rem;
+	}
+	footer{
+		position: absolute;
+		background-color: #101010;
+		left: 0;
+		width: 110%;
+		height: 110%;
+		margin-top: 4rem;
+		overflow: hidden;
+	}
+	.main-content{
+		display: inline;
+	}
+	.main-content .left{
+		display: inline-block;
+	}
+	.main-content .left img{
+		width: 170px;
+		padding: 10px;
+		margin: 2rem 0 0 10rem;
+	}
+	.main-content .left h5{
+		margin-left: 21rem;
+		margin-top: -8rem;
+		font-size: 23px;
+
+	}
+	.main-content .left .content p{
+		margin-left: 21rem;
+		text-align: left;
+		font-size: 17px;
+	}
+	.main-content .row .col-lg-5.second{
+		position: relative;
+		margin-top: 2rem;
+		text-align: center;
+		margin-left: 8rem;
+	}
+	.main-content .row .col-lg-5.second a{
+		margin-left: 6rem;
+		display: block;
+		text-align: center;
+		font-size: 20px;
+	}
+	.main-content .row .col-lg-5.third{
+		position: relative;
+		margin-top: -12.5rem;
+		text-align: center;
+		margin-left: 18rem;
+	}
+	.main-content .row .col-lg-5.third a{
+		margin-left: 6rem;
+		display: block;
+		text-align: center;
+		font-size: 20px;
+	}
+	.main-content .right{
+		position: relative;
+		width: 300px;
+		height: 200px;
+		margin-left: 13rem;
+		margin-top: -2rem;
+	}
+	.main-content .right i{
+		position: relative;
+		margin-left: 13rem;
+	}
+	.main-content .right .content p{
+		position: relative;
+		margin-left: 1rem;
+	}
 }
